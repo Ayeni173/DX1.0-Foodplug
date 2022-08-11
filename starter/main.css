@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Foorter-section start here */
+
+footer {
+    background: var(--main-color);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+
+.footer-copy-right {
+    border: 3px solid white;
+    height: 60px;
+    width: 200px;
+}
+
+.footer-icon__holder {
+    border: 3px solid white;
+    height: 60px;
+    width: 200px;
+}
+
+.footer-button__holder {
+    border: 3px solid white;
+    height: 60px;
+    width: 200px;
+}
+
+/* Footer section ends here */
