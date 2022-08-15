@@ -18,3 +18,10 @@ VS CODE EXTENSIONS
 --- Auto rename tage
 --- Panda theme
 --- Material icon theme
+
+.subscriptionbtnred {
+    padding: 15px 30px;
+    background: #a82d49;
+    color: #fff;
+    border: 2px solid #a82d49;
+}
