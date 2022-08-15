@@ -1,0 +1,20 @@
+PROJECT LINKS
+
+1. THE2COLUMN DESIGN
+https://dx1columndesign.netlify.app/
+
+2. FOODPLUG
+https://foodplug.netlify.app/
+
+
+GIST LINKS
+
+1. FOODPLUG
+https://gist.github.com/akinwumidi/f4b92d9673e27356e379c30b6d9c385d
+
+VS CODE EXTENSIONS
+
+--- Prettier
+--- Auto rename tage
+--- Panda theme
+--- Material icon theme
