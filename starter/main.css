@@ -48,6 +48,19 @@ body {
 /* Resueables ends here */
 
 /* Banner Holder Starts here */
+
+.about-us__card-container {
+
+}
+
+.about-us__imageholder {
+
+}
+
+.about-us__text-contentholder {
+    
+}
+
 .about-us__banner-holder {
     display: flex;
     flex-direction: column;
