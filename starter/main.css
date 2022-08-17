@@ -50,15 +50,40 @@ body {
 /* Banner Holder Starts here */
 
 .about-us__card-container {
-
+    border: 3px solid tomato;
+    display: flex;
+    justify-content: space-between;
 }
 
 .about-us__imageholder {
+    border-radius: 30px;
+    height: 350px;
+    width: 48%;
+    border: 3px solid black;
+    overflow: hidden;
+}
 
+.about-us__imageholder img {
+    height: auto;
+    width: 100%;
 }
 
 .about-us__text-contentholder {
-    
+    height: 350px;
+    width: 48%;
+    border: 3px solid blue;
+}
+
+.about-us__text-contentholder h2 {
+    color: var(--main-color);
+    background: var(--text-text-color);
+    border-left: 5px solid var(--main-color);
+    border-right: 5px solid var(--main-color);
+    padding: 10px;
+}
+
+.about-us__text-contentholder p {
+    margin: 20px 0;
 }
 
 .about-us__banner-holder {
