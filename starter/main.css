@@ -27,10 +27,10 @@ span a {
     url('./font/lato-regular-webfont.woff2') format('woff2');
 }
 
-body {
-    /* font-family: 'Lato', sans-serif; */
+/* body {
+    font-family: 'Lato', sans-serif;
     height: 1500px;
-}
+} */
 .btn{
     padding: 15px 20px;
 }
@@ -50,7 +50,10 @@ body {
 /* Banner Holder Starts here */
 
 .about-us__card-container {
-    border: 3px solid tomato;
+    /* border: 3px solid tomato; */
+    padding: 30px 0;
+    width: 90%;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
@@ -59,7 +62,7 @@ body {
     border-radius: 30px;
     height: 350px;
     width: 48%;
-    border: 3px solid black;
+    /* border: 3px solid black; */
     overflow: hidden;
 }
 
@@ -71,7 +74,22 @@ body {
 .about-us__text-contentholder {
     height: 350px;
     width: 48%;
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
+}
+
+.about-us__text-contentholder ul {
+    margin-bottom: 20px;
+}
+
+.about-us__text-contentholder li {
+    list-style: none;
+}
+
+.check-icon {
+    color: var(--main-color);
+    margin-right: 15px;
+    font-weight: bolder;
+    font-size: 23px;
 }
 
 .about-us__text-contentholder h2 {
@@ -80,13 +98,23 @@ body {
     border-left: 5px solid var(--main-color);
     border-right: 5px solid var(--main-color);
     padding: 10px;
+    font-size: 28px;
 }
 
 .about-us__text-contentholder p {
     margin: 20px 0;
 }
 
+.about-us__text-contentholder button:hover {
+    color: var(--main-color);
+}
+
+.cardicon {
+    margin-left: 10px;
+}
+
 .about-us__banner-holder {
+    padding: 30px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -101,6 +129,7 @@ body {
 
 .about-us__banner-holder h2 {
     color: var(--main-color);
+    font-size: 30px;
 }
 
 .about-us__banner-holder p {
