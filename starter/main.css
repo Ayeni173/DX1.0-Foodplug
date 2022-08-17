@@ -5,9 +5,7 @@
 }
 
 /* Reuseables starts here */
-p {
-    text-align: justify;
-}
+
 
 button a {
     color: var(--white-color);
@@ -27,10 +25,16 @@ span a {
     url('./font/lato-regular-webfont.woff2') format('woff2');
 }
 
-/* body {
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    
     font-family: 'Lato', sans-serif;
-    height: 1500px;
-} */
+    /* height: 1500px; */
+}
+
 .btn{
     padding: 15px 20px;
 }
@@ -46,6 +50,124 @@ span a {
 }
 
 /* Resueables ends here */
+
+/* Header section starts here */
+
+.nav-desktop {
+    position: fixed;
+    width: 100%;
+    background: var(--white-color);
+}
+
+.header-logo {
+    top: 0;
+    left: 60px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--main-color);
+    width: 100px;
+    height: 100px;
+    color: var(--white-color);
+    font-size: 50px;
+}
+
+.link-holder {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.link-holder button {
+    margin-left: 20px;
+}
+
+.link-holder ul {
+    display: flex;
+    /* border: 3px solid black; */
+    /* width: 500px; */
+}
+
+.link-holder li {
+    list-style: none;
+    border: 2px solid var(--white-color);
+}
+
+.link-holder li:hover {
+    border: 2px solid var(--main-color);
+}
+
+.header-links {
+    display: block;
+    color: var(--main-color);
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+.header-banner {
+    padding-top: 130px;
+    padding-bottom: 30px;
+    /* border: 3px solid tomato; */
+    /* height: 450px; */
+    background: url('./img/banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header-banner__container {
+    height: 100%;
+    /* border: 3px solid black; */
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header-banner__content {
+    /* max-resolution: 20px 0; */
+    /* color: var(--text-color); */
+   
+    width: 50%;
+}
+
+.header-banner__content h1 {
+    color: var(--main-color-dark);
+    font-size: 45px;
+    line-height: 1.1;
+    font-weight: 300;
+}
+
+.header-banner__content p {
+    margin: 20px 0;
+    color: var(--text-color);
+    line-height: 1.5;
+
+}
+
+.header-banner__content button {
+    margin-right: 10px;
+}
+
+.header__counter {
+    display: flex;
+    background: var(--main-color);
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+
+.counter-items {
+    /* text-align: center; */
+    width: 180px;
+    /* height: 90px; */
+    color: var(--white-color);
+    /* border: 3px solid var(--white-color); */
+}
+
+.counter-items h2 {
+    /* margin-bottom: 10px; */
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+/* Header section ends here */
 
 /* Banner Holder Starts here */
 
@@ -118,7 +240,7 @@ span a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 3px solid tomato;
+    /* border: 3px solid tomato; */
     text-align: center;
     height: 250px;
     background: var(--gray-gradient), url("./img/about3.jpg");
