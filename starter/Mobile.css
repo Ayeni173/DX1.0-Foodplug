@@ -1,0 +1,19 @@
+@media screen and (max-width: 1120px) {
+    /* faq section starts here */
+    .faq__parallax {
+        flex-direction: column;
+    }
+    /* faq section ends here */
+}
+
+/* footer section start here */
+footer {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-icon__holder {
+    margin: 20px 0;
+}
+/* footer section ends here */
