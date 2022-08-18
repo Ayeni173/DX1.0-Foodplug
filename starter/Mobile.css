@@ -1,8 +1,16 @@
 @media screen and (max-width: 851px) {
 
 /* Header section starts here */
+.nav-mobile {
+    display: flex;
+}
+
 .nav-desktop {
     display: none;
+}
+
+.header-banner {
+    padding-top: 50px;
 }
 
 .header-banner__content {
@@ -11,6 +19,11 @@
 /* Header section ends here */
 
     /* About Us section starts here */
+
+    .about-us {
+        padding: 30px 10px;
+    }
+    
     .about-us__card-container {
         flex-direction: column;
         align-items: center;
