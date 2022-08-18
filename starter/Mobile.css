@@ -1,5 +1,29 @@
 @media screen and (max-width: 1120px) {
+
+    /* About Us section starts here */
+    .about-us__card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-us__text-contentholder,
+    .about-us__imageholder {
+        min-width: 350px;
+        margin: 20px 0;
+    }
+    /* About Us section ends here */
+
+/* explore food starts here*/
+.foodcard__items {
+    margin: 20px 0;
+}
+/* explore food section ends here */
+
     /* faq section starts here */
+    .faqs__items {
+        min-width: 100%;
+    }
+
     .faq__parallax {
         flex-direction: column;
     }

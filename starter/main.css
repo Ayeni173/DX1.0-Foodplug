@@ -194,7 +194,7 @@ body {
 }
 
 .about-us__text-contentholder {
-    height: 350px;
+    /* height: 350px; */
     width: 48%;
     /* border: 3px solid blue; */
 }
@@ -300,6 +300,7 @@ body {
 
 .foodcard-Container {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
 }
